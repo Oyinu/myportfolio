@@ -126,14 +126,9 @@ ul li a{
         align-items: center;
         justify-content: center;
     }
-    .image{
-        background-color: black;
-    }
+    
     .my{
         font-size: 1rem;
     }
-   .nav-links{
-    background-color: red;
-   }
- 
+  
 }
