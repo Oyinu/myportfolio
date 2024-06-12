@@ -83,6 +83,7 @@ ul li a{
         border-radius: 50%; 
         width: 90%;
         height: 50%;
+     
      }
     .nav-links{
         display: flex;
@@ -90,6 +91,7 @@ ul li a{
         align-items: center;
        
         padding: .3rem .3rem;
+        margin: auto -2.4rem;
     }
     .nav-links ul li {
         display: flex;
@@ -110,10 +112,11 @@ ul li a{
         justify-content: space-between;
     }
     .list li{
-        padding: .3rem .4rem;
+        padding: .2rem .7rem;
+        
     }
     ul li a{
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: black;
     
     
@@ -123,4 +126,14 @@ ul li a{
         align-items: center;
         justify-content: center;
     }
+    .image{
+        background-color: black;
+    }
+    .my{
+        font-size: 1rem;
+    }
+   .nav-links{
+    background-color: red;
+   }
+ 
 }
