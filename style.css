@@ -4,8 +4,9 @@
 }
 .circular{
    border-radius: 50%; 
-   width: 60%;
+   width: 70%;
    height: 50%;
+   margin-right:30% ;
 }
 body{
     background-color: antiquewhite;
@@ -14,8 +15,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-   
+   max-width: 300px;
+   padding: .5rem .8rem;
 }
 .nav-links ul li {
     display: flex;
@@ -28,7 +29,13 @@ body{
     justify-content: center;
 }
 .name{
-    margin-top: 5%;
+    margin-top: 4%;
+}
+.name1{
+    font-size: 2.3rem;
+}
+.about{
+    font-size: 1rem;
 }
 .list{
     display:flex;
@@ -36,11 +43,84 @@ body{
     justify-content: space-between;
 }
 .list li{
-    padding: .3rem .4rem;
+    padding: .3rem .6rem;
 }
 ul li a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
 
 
+}
+.home-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+.image{
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .circular{
+        border-radius: 50%; 
+        width: 70%;
+        height: 50%;
+     }
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        padding: .5rem .8rem;
+    }
+    .nav-links ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .name{
+        margin-top: 5%;
+    }
+    .list{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .list li{
+        padding: .3rem .4rem;
+    }
+    ul li a{
+        font-size: 1.5rem;
+        color: black;
+    
+    
+    }
+    .home-details{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
 }
